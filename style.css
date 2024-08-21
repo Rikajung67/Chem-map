@@ -26,3 +26,10 @@ body {
     height: auto;
     cursor: pointer;
   }
+
+  @media screen and (min-width: 992px)
+  {
+    .grid-container {
+        display: grid;
+    }
+}
