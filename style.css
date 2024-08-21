@@ -1,0 +1,28 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url('map.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .grid-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid-container img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
